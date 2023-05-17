@@ -1,0 +1,42 @@
+.userCardsPage {
+  border: 2px solid tomato;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aqua;
+}
+
+.usersList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 48px;
+}
+
+.userItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 380px;
+  height: 460px;
+  border-radius: 20px;
+  background: linear-gradient(
+    to bottom,
+    #471ca9 0%,
+    #5736a3 69.1%,
+    #4b2a99 100%
+  );
+}
+
+.userPhoto {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.userRattingInfo {
+  color: #ebd8ff;
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 24px;
+}
